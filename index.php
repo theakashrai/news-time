@@ -55,7 +55,7 @@
             <div class="container">
                <div class="row">
                   <div class="inner text-center">
-                     <h1 class="logo-name">News Time</h1>
+                     <h1 class="logo-name"><a href="index.php" class="reset-a">News Time</a></h1>
                   </div>
                </div>
             </div>
@@ -94,7 +94,7 @@
             <div class="row">
                <div class="col-md-offset-3 col-md-6 text-center">
                   <div class="widget">
-                     <h4 class="widget-title">News Time</h4>
+                     <h4 class="widget-title"><a href="index.php" class="reset-a">News Time</a></h4>
                      <div class="social-list">
                         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>

@@ -462,5 +462,9 @@ width: 10em;
 	text-align:center;
 	padding: 1%;
 }
-
-
+.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor: auto;
+}
