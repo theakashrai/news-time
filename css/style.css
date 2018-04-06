@@ -1,0 +1,466 @@
+body {
+	font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden; 
+}
+span#title{
+	display:block;
+} 
+#title{
+	height: 100px;
+	overflow:auto;
+}
+
+#banner{
+    background: url(../img/banner-bg.jpg) no-repeat center top;
+    background-size: cover;
+    max-height: 200px;
+}
+.bg-color{
+    background-color: RGBA(0, 0, 0, 0.61);
+    max-height: 200px;
+}
+#banner h2{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 45px;
+    color: #FFB03B;
+}
+.section-padding{
+    padding: 10px 0px;
+}
+.logo-name{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 65px;
+    color: #FFB03B;
+	margin-top:0 !important;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+.backnavbtn {
+	position: absolute;
+    top: 0;
+	left:0;
+    font-size: 36px !important;
+    margin-left: 0px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.menu-icon
+{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.header-h {
+    color: #FFB03B;
+    font-size: 46px;
+    font-family: 'Satisfy', sans-serif;
+    font-weight: 300;
+}
+.header-p {
+    color: #9699a6;
+    font-size: 16px;
+}
+.media-2 {
+    margin-top: 30px;
+}
+
+
+
+.about-info #des{
+	height:240px;
+}
+.heading{
+    font-family: 'Satisfy', sans-serif;
+    color: #FFB03B;
+    font-size: 24px;
+}
+.marb-35{
+    margin-bottom: 35px;
+}
+
+span#image{
+
+display:block;}
+#about img
+{
+    border: 2px solid rgb(255, 176, 59);
+    border-radius: 5px;
+    height:240px;
+    width:370px;
+    margin:auto !important;
+}
+#event{
+    background: url('../img/banner-bg.jpg') no-repeat;
+    background-size: cover;
+}
+.left-images img {
+    height: 200px;
+    width: 100%;
+}
+.left-images{
+    padding: 0px;
+}
+
+.content-holder h2 {
+    color: #FFB03B;
+    font-size: 32px;
+    padding-bottom: 15px;
+    font-family: 'Satisfy', sans-serif;
+}
+.content-holder address strong {
+    color: #FFB03B;
+    padding: 10px 0px;
+}
+.details-text p {
+    color: #E8E8E8;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.btn-read-more {
+    background: #FFB03B;
+    padding: 7px 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.btn-read-more:hover
+{
+    color: #000;
+}
+
+.menu-restaurant{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+.menu-restaurant .menu-title {
+    float: left;
+    font-family: Montserrat,arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFB03B;
+}
+.menu-restaurant .menu-line {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+.menu-restaurant .menu-price {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu-restaurant .menu-subtitle {
+    display: block;
+    float: left;
+    color: #B1B1B1;
+    font-family: Satisfy,'Open Sans',arial;
+    font-size: 1.2rem;
+}
+.menu-restaurant span.clearfix {
+    position: relative;
+    display: block;
+}
+.gallery-trigger ul li a.active, .gallery-trigger ul li a:hover {
+    background: #FFB03B;
+    color: #fff;
+    border: 1px solid #FFB03B;
+}
+.gallery-trigger ul li {
+    display: inline-block;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.gallery-trigger ul li a {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #565656;
+    border-radius: 0px;
+    border: 1px solid #BBBBBB;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer {
+    width: 100%;
+    background-color: #222;
+    position: relative;
+    z-index: 1;
+}
+.footer a {
+    color: #fff;
+}
+
+.footer .footer-top {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+.footer .widget-title, .footer .widget-title a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #999;
+}
+.footer .widget-title{
+    padding-bottom: 20px;
+    font-family: 'Satisfy', sans-serif;
+    font-size: 44px;
+    color: #FFB03B;
+}
+.footer .widget, .footer address {
+    color: #999;
+    text-transform: none;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.footer .navigation, .footer .social-list {
+    float: none;
+    margin-bottom: 20px;
+}
+.list-horizontal li {
+    display: inline-block;
+}
+#contact{
+    background-color: rgba(221, 221, 221, 0.33);
+}
+.footer .social-list a {
+    font-size: 32px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+@media (min-width: 768px) and (max-width: 980px) {
+    .content-holder h2 {
+        font-size: 23px;
+    }
+    .details-text p {
+        line-height: 16.6px;
+    }
+}
+@media (min-width: 451px) and (max-width: 767px) {
+    .details-text {
+        border:0px;
+        border-bottom: 2px solid #A87F41;
+    }
+}
+@media (min-width: 20px) and (max-width: 450px) {
+    .menu-restaurant {
+    width: 100%;
+    }
+    .details-text {
+        border:0px;
+        border-bottom: 2px solid #A87F41;
+    }
+    .header-h {
+        font-size: 35px;
+    }
+    .header-p, body{
+        font-size: 14px;
+    }
+	
+    .about-info, .mr-15{
+        margin-bottom: 15px;
+    }
+    #banner h2{
+        font-size: 25px;
+    }
+    #banner p{
+        font-size: 25px;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+div#next_btn,div#prev_btn{
+	color:white;
+	padding:10px;
+	font-size: 3em;
+	font-weight: 900;
+	position:fixed;
+	top:45%;
+	background-color: #88807b;
+	opacity:.4
+}
+div#next_btn:hover,div#prev_btn:hover{
+	opacity:.8;
+	text-shadow: 4px 4px 4px #191818;
+}
+
+
+div#next_btn{
+	right: 1%;
+}
+div#prev_btn{
+	left: 0%;
+}
+#mySidenavcat{
+	margin-top:20% !important;
+}
+
+#loginForm form{
+	text-align:center;
+	/* margin:auto; */
+	/* left: 25%; */
+	/* right: 25%; */
+	/* margin-left: 10%; */
+	/* margin-right: 0; */
+}
+#loginForm form input{
+	margin-top: 0px;
+	margin-bottom:20px;
+	}
+.btnn{
+height:50px;
+margin-left: 15px;
+margin-right: 15px;
+font-size:1em;
+border-radius: 20px;
+font-weight:bold;
+background-color: #7e6fc5;
+color: white;
+width: 10em;
+}
+.btnny{
+
+height:50px;
+
+margin-left: 15px;
+
+margin-right: 15px;
+
+font-size:1em;
+
+border-radius: 10px;
+
+font-weight:bold;
+
+background-color: green;
+
+color: white;
+
+width: 5em;
+}
+#loginForm form .btnn:hover{
+	background-color:red;
+	
+}
+ input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  margin-right:0;
+  
+}
+ input[type="text"]:focus,[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}
+ input[type="file"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  margin-right:0;
+  
+}
+ input[type="file"]:focus,[type="file"].focus {
+  border-bottom: solid 2px #969696;
+}
+input[type="password"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+ 
+}
+ input[type="password"]:focus,[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}
+#up:hover{
+	text-shadow:1px 1px;
+	color:black
+}
+
+#dp img{
+	border-radius:100%;
+	margin:auto !important;
+	height:240px !important;
+	width:240px !important;
+}
+.btnnn{
+height:50px;
+font-size:1em;
+border-radius: 20px;
+font-weight:bold;
+background-color: #7e6fc5;
+color: white;
+width: 10em;
+}
+.dp_form input{
+	margin-bottom:20px;
+}
+
+#des
+{
+	overflow:auto;
+}
+.bookmarks_list table td{
+	padding: 1%;
+}
+.bookmarks_list table th{
+	text-align:center;
+	padding: 1%;
+}
+
+
