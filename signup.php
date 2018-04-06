@@ -16,6 +16,14 @@
         $mysqli = new mysqli("localhost", "root", "Atlantis@123", "news_time");
 		$name =$mysqli->real_escape_string($_POST['USR_NAME']);
 		$email = $mysqli->real_escape_string($_POST['USR_MAIL']);
+		$check_email_sql="select email from users where email = '".$email."'";
+		$check_email=mysqli_query($link,$check_email_sql)or die(mysqli_error());
+		$chk_res = mysqli_num_rows($check_email);
+		if($chk_res>0)
+		{
+			echo "<script>alert('E-mail already registered. Please Sign In.');
+		window.location.href='signup.php';</script>";
+		}
 		$hash = ( rand(1000,10000) );
 		ini_set("SMTP","ssl://smtp.gmail.com");
 		ini_set("smtp_port","465");
