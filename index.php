@@ -85,7 +85,7 @@
             </div>
 			<div id="next_btn" onclick="next_change();">&gt;</div>
 			<div id="prev_btn" onclick="prev_change();">&lt;</div>
-			<center><input type="button" class="btnny" value="update" style="margin-top:20px" onclick="requestNewsJSON(urlGenerator('the-times-of-india'))"></center>
+			<center><input type="button" class="btnny" value="Update" style="margin-top:20px" onclick="requestNewsJSON(urlGenerator('the-times-of-india'))"></center>
          </div>
       </section>
       <!--/about-->

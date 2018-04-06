@@ -108,10 +108,18 @@
       </div>
       <center>
 			<form method ="POST" action="">
-                    <label style="float:none">Name:</label>
-					<input class="focus"type="text" name= "USR_NAME"><br><br>
-					<label style="float:none">E-mail:</label>
+					<div>
+						<label style="float:none">Name:</label>
+					</div>
+					<div>
+						<input class="focus" type="text" name= "USR_NAME"><br><br>
+					</div>
+					<div>
+						<label style="float:none">E-mail:</label>
+					</div>
+					<div>
 					<input class="focus" type="text" name= "USR_MAIL">
+					</div>
 				
 				<br>
 				<br>

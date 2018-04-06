@@ -45,15 +45,15 @@
 
 			<form method ="post" action ="ucheck.php">
 				
-						<label style="float:none">&nbsp;&nbsp;&nbsp;&nbsp;E-mail:&nbsp;&nbsp;&nbsp;</label>
+						<div><label style="float:none">E-mail</label></div>
 					
-						<input type="text" name= "USR_MAIL" class="focus"><br><br>
+						<div><input type="text" name= "USR_MAIL" class="focus"></div><br><br>
 					
-						<label style="float:none">Password:&nbsp;&nbsp;</label>
+						<label style="float:none">Password:</label>
 					
-						
+						<div>
 						<input type="PASSWORD" name="USR_PWD" class="focus"><br>
-			
+						</div>
 	
 						<br>
 						<br><input class="btnn" type="Submit" value="Login" >
