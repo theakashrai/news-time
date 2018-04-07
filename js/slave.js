@@ -110,6 +110,3 @@ $(document).ready(function() {
     });
 
  });
- 
-
-
