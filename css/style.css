@@ -8,10 +8,11 @@ body {
     overflow-x: hidden; 
 }
 span#title{
+	
 	display:block;
 } 
 #title{
-	height: 100px;
+	height: 50px;
 	overflow:auto;
 }
 
@@ -116,15 +117,16 @@ span#title{
 }
 
 span#image{
-
 display:block;}
 #about img
 {
-    border: 2px solid rgb(255, 176, 59);
+    border: 20px solid rgba(0,0,0,.075);
     border-radius: 5px;
     height:240px;
     width:370px;
-    margin:auto !important;
+    margin-right:5% !important;
+    margin-top:10% !important;
+    margin-bottom:10% !important;
 }
 #event{
     background: url('../img/banner-bg.jpg') no-repeat;
@@ -467,4 +469,10 @@ width: 10em;
   color: inherit;
   outline: 0;
   cursor: auto;
+}
+p#des{
+	margin-left:5% !important;
+	
+	margin-top:10% !important;
+	margin-bottom:10% !important;
 }

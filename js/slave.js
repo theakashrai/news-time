@@ -83,9 +83,9 @@ function changer() {
 	window.con_url=newsObj.articles[i].url;
         if (background != null)
         document.getElementById("image").innerHTML = '<img src= "' + background + '"alt="" class="img-responsive">';
-        document.getElementById("title").innerHTML = '<a href='+con_url+'>'+title+'</a>';
+        document.getElementById("title").innerHTML = '<b><a class="reset-a" href='+con_url+'>'+title+'</a><b>';
         document.getElementById("des").innerHTML = description;
-		document.getElementById("des").innerHTML+='<div class="bookmarks_btn"><input type="button" class="btnnn" id="hello_btn" value="bookmark it" style="margin-top:20px"></div>';
+		//document.getElementById("des2").innerHTML='';
 }
 
 function xender(val) {
@@ -100,7 +100,7 @@ function xender(val) {
 }
 $(document).ready(function() {
 	console.log("loaded");
-	$("body").on('click','.btnnn',function() {
+	$("body").on('click','.save_link',function() {
 	console.log("hello");
 	$.ajax({    
     type: "POST",

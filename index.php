@@ -70,23 +70,36 @@
                   <h1 class="header-h element-animation">Latest News</h1>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-6 col-sm-6">
-                  <span id="image"></span> 
-               </div>
-               <div class="col-md-6 col-sm-6">
-                  <div class="about-info">
-                     <h2 class="heading"><span id="title"></span></h2>
-                     <p id="des" style="overflow:auto">
-					 </p>
-					
-                  </div>
-               </div>
-            </div>
+			<div class="card">
+				<div class="card-header bg-warning text-center"style="border-radius: 5px">
+				<span id="title"></span>
+				</div>
+				<div class="card-body">
+						<div class="row">
+						<div class="col-md-6">
+						 <span id="image"></span>
+						 </div>
+						 <div class="col-md-6">
+						 <p id="des" style="overflow:auto">
+						 </p>
+						 </div>
+						 </div>
+						 <div class="card-footer bg-warning">
+								<div class="row">
+								 <div class="col" style="margin:auto">
+								 <button class="btn save_link" id="hello_btn" value="bookmark it">Save Link</button>
+								 </div>
+								 <div class="col" style="margin:auto">
+								 <button class="btn" value="Update" onclick="requestNewsJSON(urlGenerator('the-times-of-india'))">Update News</button>
+								 </div>
+								</div>
+						 </div>
+				</div>
 			<div id="next_btn" onclick="next_change();">&gt;</div>
 			<div id="prev_btn" onclick="prev_change();">&lt;</div>
-			<center><input type="button" class="btnny" value="Update" style="margin-top:20px" onclick="requestNewsJSON(urlGenerator('the-times-of-india'))"></center>
-         </div>
+			
+			</div>
+		 </div>
       </section>
       <!--/about-->
       <footer class="footer text-center">
